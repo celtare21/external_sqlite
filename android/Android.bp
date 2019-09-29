@@ -1,7 +1,6 @@
 cc_library_static {
     name: "libsqlite3_android",
     vendor_available: true,
-    native_bridge_supported: true,
     cflags: [
         "-Wall",
         "-Werror",
